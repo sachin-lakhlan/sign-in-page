@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.bg-img {
+    background-image: url(../image/pic-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    min-height: 100vh;
+    /* justify-content: center;
+    align-items: center;
+    display: flex; */
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+/* card-2-css */
+h2 {
+    font-family: "Poppins", serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 43.2px;
+    text-align: left;
+    color: rgba(98, 101, 109, 1);
+}
+
+h3 {
+    font-family: "Lato", serif;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: rgba(98, 101, 109, 1);
+}
+
+.text-colour {
+    color: rgba(37, 99, 235, 1);
+}
+
+label[for="email"] {
+    position: relative;
+    display: flex;
+}
+
+.email-icon {
+    position: absolute;
+    top: 55%;
+    left: 16px;
+    transform: translateY(-50%);
+}
+
+input[type="email"][id="email"] {
+    width: 100%;
+    height: 100%;
+    padding: 8px 24px;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: rgba(245, 248, 255);
+    border-radius: 6px;
+    border: 1px solid rgba(228, 234, 247, 1);
+    margin-top: 10px;
+    padding-left: 44px;
+}
+
+label[for="password"] {
+    position: relative;
+    display: flex;
+}
+
+.lock-icon {
+    position: absolute;
+    top: 55%;
+    left: 16px;
+    transform: translateY(-50%);
+}
+
+.close-eye-icon {
+    position: absolute;
+    top: 55%;
+    right: 13px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.close-eye-icon:hover path {
+    fill: black;
+}
+
+input[type="password"][id="password"] {
+    width: 100%;
+    height: 100%;
+    padding: 8px 24px;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: rgba(245, 248, 255);
+    border-radius: 6px;
+    border: 1px solid rgba(228, 234, 247, 1);
+    margin-top: 10px;
+    padding-left: 44px;
+}
+
+.remind-pernt {
+    padding-block: 12px;
+}
+
+.sign-in-button {
+    margin-bottom: 16px;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    width: 100%;
+    padding: 14px 32px 14px 32px;
+    gap: 10px;
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%)
+}
+
+h4 {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(145, 151, 166, 1);
+}
+
+.line {
+    width: 40%;
+    text-align: left;
+    margin-left: 0;
+}
+
+.google-btn {
+    margin-top: 24px;
+    width: 45%;
+    padding: 10px 16px 10px 16px;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(228, 234, 247, 1);
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(98, 101, 109, 1);
+
+}
+
+.facebook-btn {
+    margin-top: 24px;
+    width: 45%;
+    padding: 10px 16px 10px 16px;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(228, 234, 247, 1);
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebok {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(98, 101, 109, 1);
+}
+
+/* card-3-css */
+.position-relative {
+    position: relative;
+}
+
+/* .circle {
+    position: absolute;
+    width: 499.29px;
+    left: 110px;
+} */
+
+.union {
+    position: absolute;
+    top: 20% !important;
+    left: 28% !important;
+    z-index: 1 !important;
+}
+
+.contact-list {
+    z-index: 2;
+    left: 60%;
+    top: 27%;
+    position: absolute;
+}
+
+.facebook {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    z-index: 3;
+}
+
+.lekdin {
+    position: absolute;
+    top: 37%;
+    left: 20%;
+    z-index: 3;
+}
+
+.instagram {
+    position: absolute;
+    top: 62%;
+    left: 20%;
+    z-index: 3;
+}
+
+.twiter {
+    position: absolute;
+    top: 85%;
+    left: 20%;
+    z-index: 3;
+}
+
+/* responsive */
+@media (min-width:320px) {
+    .col-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+}
+
+/* @media (min-width:411px) {}
+
+@media (min-width:576px) {} */
+
+@media (min-width:992px) {
+    .col-lg-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .circle {
+        position: absolute;
+        width: 499.29px;
+        left: 110px;
+    }
+}

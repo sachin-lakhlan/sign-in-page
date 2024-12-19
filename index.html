@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/root.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="bg-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="card-1">
+                        <img src="assets/image/Logo-1.webp" alt="logo">
+                    </div>
+                    <div class="card-2">
+                        <h2>Sign in</h2>
+                        <h3>Don’t have an account? <a href=""><span class="text-colour">Register here</span></a></h3>
+                        <form class="form">
+                            <label for="email">
+                                <svg class="email-icon" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M3 3H15C15.825 3 16.5 3.675 16.5 4.5V13.5C16.5 14.325 15.825 15 15 15H3C2.175 15 1.5 14.325 1.5 13.5V4.5C1.5 3.675 2.175 3 3 3Z"
+                                        stroke="#9197A6" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M16.5 4.5L9 9.75L1.5 4.5" stroke="#9197A6" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                                <input type="email" id="email" placeholder="Email">
+                            </label>
+                            <label for="password">
+                                <svg class="lock-icon" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.25 8.25H3.75C2.92157 8.25 2.25 8.92157 2.25 9.75V15C2.25 15.8284 2.92157 16.5 3.75 16.5H14.25C15.0784 16.5 15.75 15.8284 15.75 15V9.75C15.75 8.92157 15.0784 8.25 14.25 8.25Z"
+                                        stroke="#9197A6" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M5.25 8.25V5.25C5.25 4.25544 5.64509 3.30161 6.34835 2.59835C7.05161 1.89509 8.00544 1.5 9 1.5C9.99456 1.5 10.9484 1.89509 11.6517 2.59835C12.3549 3.30161 12.75 4.25544 12.75 5.25V8.25"
+                                        stroke="#9197A6" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <input type="password" id="password" placeholder="Password">
+                                <svg class="close-eye-icon" width="18" height="11" viewBox="0 0 18 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.00634 10.0865L5.55809 9.69802L6.14834 7.49377C5.26481 7.16792 4.44367 6.69304 3.72059 6.08977L2.10584 7.70527L1.04459 6.64402L2.66009 5.02927C1.74814 3.93709 1.1354 2.62684 0.881836 1.22677L2.35784 0.95752C2.92709 4.10902 5.68409 6.50002 8.99984 6.50002C12.3148 6.50002 15.0726 4.10902 15.6418 0.95752L17.1178 1.22602C16.8646 2.62628 16.2521 3.9368 15.3403 5.02927L16.9551 6.64402L15.8938 7.70527L14.2791 6.08977C13.556 6.69304 12.7349 7.16792 11.8513 7.49377L12.4416 9.69877L10.9933 10.0865L10.4023 7.88152C9.4741 8.04058 8.52557 8.04058 7.59734 7.88152L7.00634 10.0865Z"
+                                        fill="#9197A6" />
+                                </svg>
+                            </label>
+                            <div class="remind-pernt d-flex justify-content-between">
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="Remember">Remember me</label>
+                                </div>
+                                <a href="">Forgot password?</a>
+                            </div>
+                            <button class="sign-in-button">Sign in</button>
+                            <div class="d-flex justify-content-between align-item-center">
+                                <div class="line">
+                                    <hr>
+                                </div>
+                                <h4>or continue with</h4>
+                                <div class="line">
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <button class="google-btn ">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M19.8001 10.222C19.8001 9.39982 19.7334 8.79982 19.589 8.17761H10.2002V11.8887H15.7112C15.6002 12.8109 15.0002 14.1998 13.6668 15.1331L13.6481 15.2573L16.6167 17.557L16.8224 17.5776C18.7112 15.8331 19.8001 13.2664 19.8001 10.222Z"
+                                            fill="#4285F4" />
+                                        <path
+                                            d="M10.2004 20.0001C12.9003 20.0001 15.167 19.1111 16.8226 17.5779L13.667 15.1334C12.8226 15.7223 11.6892 16.1334 10.2004 16.1334C7.55598 16.1334 5.31157 14.389 4.5115 11.9779L4.39422 11.9879L1.30746 14.3767L1.26709 14.489C2.91151 17.7556 6.28927 20.0001 10.2004 20.0001Z"
+                                            fill="#34A853" />
+                                        <path
+                                            d="M4.51124 11.9777C4.30013 11.3555 4.17796 10.6888 4.17796 9.99995C4.17796 9.31102 4.30013 8.64438 4.50013 8.02217L4.49454 7.88966L1.36909 5.4624L1.26683 5.51104C0.589086 6.86661 0.200195 8.38885 0.200195 9.99995C0.200195 11.611 0.589086 13.1332 1.26683 14.4888L4.51124 11.9777Z"
+                                            fill="#FBBC05" />
+                                        <path
+                                            d="M10.2004 3.86662C12.0781 3.86662 13.3448 4.67772 14.067 5.35554L16.8892 2.59998C15.1559 0.988887 12.9003 0 10.2004 0C6.28927 0 2.91151 2.24441 1.26709 5.51103L4.50039 8.02216C5.31157 5.61107 7.55598 3.86662 10.2004 3.86662Z"
+                                            fill="#EB4335" />
+                                    </svg>
+                                    <a class="google" href="https://www.google.com/">Google</a>
+                                </button>
+                                <button class="facebook-btn">
+                                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_49789_3111)">
+                                            <path
+                                                d="M20.5 10C20.5 4.47715 16.0228 0 10.5 0C4.97715 0 0.5 4.47715 0.5 10C0.5 14.9913 4.15686 19.1283 8.9375 19.8785V12.8906H6.39844V10H8.9375V7.79688C8.9375 5.29062 10.4304 3.90625 12.7146 3.90625C13.8087 3.90625 14.9531 4.10156 14.9531 4.10156V6.5625H13.6921C12.4499 6.5625 12.0625 7.33333 12.0625 8.12417V10H14.8359L14.3926 12.8906H12.0625V19.8785C16.8431 19.1283 20.5 14.9913 20.5 10Z"
+                                                fill="#1877F2" />
+                                            <path
+                                                d="M14.3926 12.8906L14.8359 10H12.0625V8.12417C12.0625 7.33333 12.4499 6.5625 13.6921 6.5625H14.9531V4.10156C14.9531 4.10156 13.8087 3.90625 12.7146 3.90625C10.4304 3.90625 8.9375 5.29062 8.9375 7.79688V10H6.39844V12.8906H8.9375V19.8785C9.97287 20.0405 11.0271 20.0405 12.0625 19.8785V12.8906H14.3926Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_49789_3111">
+                                                <rect width="20" height="20" fill="white" transform="translate(0.5)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <a class="facebok" href="https://www.facebook.com/">Facebook</a>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 position-relative">
+                    <img class="circle" src="assets/image/full-circle.png" alt="circle">
+                    <img class="union" src="assets/image/img-5.webp" alt="union">
+                    <img class="contact-list" src="assets/image/card.webp" alt="group">
+                    <a href="https://www.facebook.com/"><img class="facebook" src="assets/image/facebook.png"
+                            alt=" facbook"></a>
+                    <a href="https://in.linkedin.com/"><img class="lekdin" src="assets/image/lekdin.png"
+                            alt="linkdin"></a>
+                    <a href="https://www.instagram.com/"><img class="instagram" src="assets/image/insta.png"
+                            alt="instagram"></a>
+                    <a href="https://x.com/"><img class="twiter" src="assets/image/twiter.png" alt="twiter"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
