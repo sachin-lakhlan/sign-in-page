@@ -17,9 +17,9 @@
 
 section {
     min-height: 100vh;
-    /* justify-content: center;
+    justify-content: center;
     align-items: center;
-    display: flex; */
+    display: flex;
 }
 
 .container {
@@ -28,6 +28,10 @@ section {
     margin-right: auto;
     padding-left: 12px;
     padding-right: 12px;
+}
+
+.w-100 {
+    width: 100%;
 }
 
 .row {
@@ -246,28 +250,28 @@ h4 {
 
 .facebook {
     position: absolute;
-    top: 15%;
+    top: 14%;
     left: 20%;
     z-index: 3;
 }
 
 .lekdin {
     position: absolute;
-    top: 37%;
+    top: 39%;
     left: 20%;
     z-index: 3;
 }
 
 .instagram {
     position: absolute;
-    top: 62%;
+    top: 68%;
     left: 20%;
     z-index: 3;
 }
 
 .twiter {
     position: absolute;
-    top: 85%;
+    top: 93%;
     left: 20%;
     z-index: 3;
 }
